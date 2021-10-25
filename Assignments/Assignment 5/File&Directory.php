@@ -1,4 +1,5 @@
 <?php
+
 $rootDir = "./directories/";
 $contents = scandir($rootDir);
 $alreadyExists = FALSE;
@@ -11,7 +12,7 @@ $operSuccess = FALSE;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment</title>
+    <title>File and Directory</title>
 
     <style>
         h1 {
